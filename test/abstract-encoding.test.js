@@ -1,5 +1,5 @@
-import test from 'tape'
-import bencode from '../index.js'
+const test = require('tape').test
+const bencode = require('../lib/index.js')
 
 test('abstract encoding', function (t) {
   t.test('encodingLength( value )', function (t) {
